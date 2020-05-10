@@ -6,7 +6,7 @@ import pandas as pd
 import numpy as np
 
 #Import Dataset
-dataset = pd.read_csv('/content/drive/My Drive/Colab Notebooks/PolynomialLinearRegression/PositionSalaries/Position_Salaries.csv')
+dataset = pd.read_csv('Position_Salaries.csv')
 X = dataset.iloc[:, 1:-1].values
 y = dataset.iloc[:, -1].values
 
